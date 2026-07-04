@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "PhishingGuard",
+  "version": "1.0",
+
+  "description": "Phishing detector",
+
+  "permissions": [
+    "tabs",
+    "<all_urls>"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "icons": {
+    "48": "icons/phish.png"
+  }
+}
